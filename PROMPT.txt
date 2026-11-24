@@ -1,0 +1,117 @@
+**Wedding Invite Generator**
+
+I want an interactive digital wedding invitation — the kind you open on a phone
+and scroll through, not a PDF.
+
+**Here is a live example of exactly what I want:**
+https://claude.ai/artifact/EmBZBSf7STcRge4BJ5Agvg
+
+Open that link first and look at it properly. Match its structure, its feel and
+its interactions. Do not copy its names, dates, photos or colours — those are
+placeholders and I will give you mine. If for any reason you cannot open it,
+say so in one short line and build from the description further down, which
+covers the same thing.
+
+Please work in three steps and do not skip ahead.
+
+---
+
+## STEP 1 — ask me everything first
+
+Before you write a single line of code, ask me all of this in **one message**,
+as a numbered list, then stop and wait for my answers. Keep it friendly and in
+plain language — I am not technical, so no jargon. Tell me I can skip any of it
+and you will put something tasteful in its place.
+
+1. The couple's first names, and how to write them together
+2. Both sets of parents' names, as they should appear
+3. Every function: name, day and date, start time, venue, dress code, and
+   whether it is daytime or night. There is no fixed number — I might have
+   three, I might have nine. I will list them in the order I want them shown.
+4. The main wedding date and time
+5. The venue name and full address, for directions
+6. A WhatsApp number for RSVPs, with country code
+7. Any photos I want to upload — one of the couple, and any for the functions
+8. A colour direction, or choose one for me
+
+If I upload photos, confirm you can actually see them before you start building.
+If I give you a WhatsApp number, repeat it back to me so I can check it.
+
+---
+
+## STEP 2 — build it
+
+One self-contained artifact, designed for a phone first.
+
+**Scroll order**
+
+1. **A sealed envelope filling the screen.** A hint says to tap. On tap the seal
+   cracks with a glint, then four triangular flaps unfold outward on their
+   diagonal folds, revealing the invitation. Confetti bursts as it opens.
+2. **The names.** A photo in an arched frame, "together with their families",
+   both names large, both sets of parents, and a line inviting the reader.
+3. **Save the date.** A hanging scroll with gold rods, covered. The reader drags
+   a tassel downward to uncover the date. Under it, an "Add to calendar" button
+   that opens a prefilled Google Calendar event.
+4. **One full-screen scene per function**, in my order. Each fills the whole
+   screen with its name, day and date, time, venue, and a dress-code pill with
+   a colour swatch.
+5. **Our Story** — a few photo moments with short captions.
+6. **How to Reach** — a stylised map, the address, a "Get directions" button
+   that opens Google Maps *directions* (not just a dropped pin), and a
+   "Copy address" button.
+7. **RSVP** — a sign-off and a WhatsApp button with a friendly prefilled message.
+
+**The thing that makes it feel expensive**
+
+The background is a **fixed, full-screen stage behind everything**, not a stack
+of cards. As I scroll, whichever section is nearest the middle of the screen
+takes over that stage, cross-fading over about a second. The whole screen
+becomes each function in turn.
+
+**Tie each scene to its time of day.** Daytime functions get warm sunlit sky and
+a sun glow; evening ones get deep night sky, moon and stars. The page travels
+from morning to night as I scroll. Add light that belongs to each scene — a sun
+bloom that pulses, fire flicker at the pheras, chandeliers at the reception,
+coloured stage beams at the sangeet.
+
+Over everything, **flowers fall continuously** — marigolds drawn as rings of
+petals around a centre, plus rose petals and jasmine, drifting and rotating.
+
+**Details that will otherwise go wrong**
+
+- Put the dark scrim **anchored to the bottom of the screen**, not inside the
+  artwork, so text stays readable however the photo crops on a given phone.
+- Photos must be **embedded so they travel with the link** — as artifact assets,
+  or inlined. Never link to a file on my computer or an outside website; those
+  break the moment a guest opens it. Shrink them before embedding so the page
+  stays light and the cross-fades don't stutter.
+- No photos? Build each scene from gradients, shapes and light, still committing
+  to day or night. Never leave a grey box.
+- **Crop, don't squash.** Nothing may stretch on a tall phone screen.
+- Pair a serif display face with a clean sans, from Google Fonts.
+- Respect `prefers-reduced-motion`.
+- Use however many functions I gave you, in my order. Do not hardcode five.
+
+---
+
+## STEP 3 — hand it over properly
+
+This matters more than the code, so do not rush it.
+
+When it is built, tell me in plain language:
+
+1. **That the invitation is private right now** and my guests cannot open it yet.
+2. **Exactly how to make it shareable** — walk me through it like I have never
+   done it before: open the invitation, find the Share control on it, and turn
+   on the option that lets anyone with the link view it. Tell me what to look
+   for on screen.
+3. **How to check it worked** — paste the link into a private/incognito window,
+   or send it to one friend first and confirm it opens for them before I send
+   it to the whole family.
+
+Do not tell me the link is public until I have confirmed I did that step.
+
+Then stay in this chat with me. If I want to change a name, swap a photo,
+reorder the functions or fix a time, update the same invitation rather than
+making a new one, so the link I already sent out keeps working.
