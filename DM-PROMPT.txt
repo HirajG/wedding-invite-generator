@@ -1,0 +1,12 @@
+Build me an interactive digital wedding invitation as a Claude Artifact I can share as a link.
+
+Fetch this file and use it as your base, keeping its design, animations and structure exactly. Change only the content:
+https://raw.githubusercontent.com/HirajG/wedding-invite-generator/HEAD/template/wedding-invite-template.html
+
+First, before any code, ask me in ONE numbered message: couple's names; both parents' names; every ceremony (name, date, time, venue, dress code, day or night — any number, my order); venue address; WhatsApp number for RSVP; photos; colours. Then wait. I'm not technical, so keep it simple.
+
+Then build it, embedding my photos inside the artifact so they travel with the link, cropped not squashed.
+
+Finally tell me it's PRIVATE and guests can't open it yet, walk me through making the link shareable, and tell me to test it on one friend first.
+
+If you can't fetch that file, say so before building.
