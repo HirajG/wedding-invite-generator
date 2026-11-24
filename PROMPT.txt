@@ -4,7 +4,7 @@ I want an interactive digital wedding invitation — the kind you open on a phon
 and scroll through, not a PDF.
 
 **Start from this exact file — it is the invitation I want, working:**
-https://raw.githubusercontent.com/HirajG/wedding-invite-generator/main/template/wedding-invite-template.html
+https://raw.githubusercontent.com/HirajG/wedding-invite-generator/HEAD/template/wedding-invite-template.html
 
 Fetch that URL and read it. It is one self-contained HTML file. Use it as your
 starting point and change only the content: the names, the parents, the dates,
