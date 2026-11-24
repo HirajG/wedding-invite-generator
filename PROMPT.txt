@@ -4,7 +4,7 @@ I want an interactive digital wedding invitation — the kind you open on a phon
 and scroll through, not a PDF.
 
 **Start from this exact file — it is the invitation I want, working:**
-https://raw.githubusercontent.com/HirajG/wedding-invite-generator/HEAD/template/wedding-invite-template.html
+https://raw.githubusercontent.com/HirajG/wedding-invite-generator/HEAD/template/invite.html
 
 Fetch that URL and read it. It is one self-contained HTML file. Use it as your
 starting point and change only the content: the names, the parents, the dates,
@@ -118,6 +118,16 @@ When it is built, tell me in plain language:
    it to the whole family.
 
 Do not tell me the link is public until I have confirmed I did that step.
+
+4. **If it did not come out the way I expected, say so plainly and tell me
+   why** — and name the actual reason rather than apologising. For example:
+   you could not fetch the template so you built it from the description; you
+   could not upload image files, so the backgrounds are gradients instead of
+   the real artwork; my photos were too large to embed; or I did not give you
+   enough detail for a section. Then tell me what would fix it — most often
+   that is running this on Claude Desktop or Claude Code with
+   github.com/HirajG/wedding-invite-generator, where the artwork can be
+   uploaded properly.
 
 Then stay in this chat with me. If I want to change a name, swap a photo,
 reorder the functions or fix a time, update the same invitation rather than
