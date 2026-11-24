@@ -3,14 +3,21 @@
 I want an interactive digital wedding invitation — the kind you open on a phone
 and scroll through, not a PDF.
 
-**Here is a live example of exactly what I want:**
+**Start from this exact file — it is the invitation I want, working:**
+https://raw.githubusercontent.com/HirajG/wedding-invite-generator/main/template/wedding-invite-template.html
+
+Fetch that URL and read it. It is one self-contained HTML file. Use it as your
+starting point and change only the content: the names, the parents, the dates,
+the ceremonies, the venue, the WhatsApp number, the photos and the colours.
+Keep its structure, its interactions and its timing exactly as they are — the
+envelope unfolding, the tassel pull, the full-screen scenes, the day-to-night
+shift, the falling flowers.
+
+There is also a live version you can open to see it in motion:
 https://claude.ai/artifact/EmBZBSf7STcRge4BJ5Agvg
 
-Open that link first and look at it properly. Match its structure, its feel and
-its interactions. Do not copy its names, dates, photos or colours — those are
-placeholders and I will give you mine. If for any reason you cannot open it,
-say so in one short line and build from the description further down, which
-covers the same thing.
+If you cannot fetch the file for any reason, tell me in one short line and
+build it from the description further down, which covers the same thing.
 
 Please work in three steps and do not skip ahead.
 
