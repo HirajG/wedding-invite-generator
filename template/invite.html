@@ -97,8 +97,6 @@ section{padding-block:76px;position:relative}
   border:1px solid rgba(232,200,126,.5);box-shadow:0 26px 56px rgba(0,0,0,.6)}
 .arch::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
   box-shadow:inset 0 0 0 5px rgba(232,200,126,.16),inset 0 -40px 46px rgba(16,10,24,.5)}
-.photo-ph{width:100%;height:100%;display:block;
-  background:linear-gradient(150deg,#6E4C7A 0%,#A4708C 40%,#E0A070 78%,#F7D9A8 100%)}
 .arch img{width:100%;height:100%;object-fit:cover;object-position:50% 26%;display:block}
 .names{margin:16px 0 0;font-size:clamp(3.1rem,16vw,4.5rem);color:var(--cream);
   text-shadow:0 2px 24px rgba(0,0,0,.6)}
@@ -424,7 +422,8 @@ section{padding-block:76px;position:relative}
 <div id="stage" aria-hidden="true">
 
   <!-- ===== default: a soft night drawn from the pheras artwork ===== -->
-  <div style="background:radial-gradient(120% 80% at 50% 10%, #3A2252 0%, #1E1533 45%, #120C20 100%)" class="backdrop art on" data-scene="night">
+  <div class="backdrop art on" data-scene="night">
+    <img src="ASSET:scene-night" alt="" class="scene-img" style="animation:none">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="amb"><stop offset="0" stop-color="#F2A03D" stop-opacity=".16"/>
         <stop offset="1" stop-color="#F2A03D" stop-opacity="0"/></radialGradient></defs>
@@ -433,7 +432,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== 1 MAYRA — late morning ===== -->
-  <div style="background:linear-gradient(170deg,#FFD9A0 0%,#F2A03D 32%,#C96A2E 62%,#5E2F14 100%)" class="backdrop art" data-scene="mayra">
+  <div class="backdrop art" data-scene="mayra">
+    <img src="ASSET:scene-mayra" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><linearGradient id="scrimMay" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stop-color="#4A1E08" stop-opacity="0"/>
@@ -446,7 +446,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== 1b MAYRA, groom's side — afternoon ===== -->
-  <div style="background:linear-gradient(170deg,#FFE3B0 0%,#F0A64E 34%,#B9602C 66%,#53290F 100%)" class="backdrop art" data-scene="mayra2">
+  <div class="backdrop art" data-scene="mayra2">
+    <img src="ASSET:scene-mayra2" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="sunWarm2"><stop offset="0" stop-color="#FFE3A6" stop-opacity=".45"/>
         <stop offset="1" stop-color="#FFE3A6" stop-opacity="0"/></radialGradient></defs>
@@ -455,7 +456,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== MEHENDI ===== -->
-  <div style="background:linear-gradient(170deg,#DCF2B0 0%,#86C35A 34%,#3F7A3C 68%,#1C3F20 100%)" class="backdrop art" data-scene="mehendi">
+  <div class="backdrop art" data-scene="mehendi">
+    <img src="ASSET:scene-mehendi" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="sunMeh"><stop offset="0" stop-color="#FFF6CC" stop-opacity=".42"/>
         <stop offset="1" stop-color="#FFF6CC" stop-opacity="0"/></radialGradient></defs>
@@ -464,7 +466,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== HALDI ===== -->
-  <div style="background:linear-gradient(170deg,#FFF0A8 0%,#F7D24B 34%,#D89A24 66%,#6B4410 100%)" class="backdrop art" data-scene="haldi">
+  <div class="backdrop art" data-scene="haldi">
+    <img src="ASSET:scene-haldi" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="sunHal"><stop offset="0" stop-color="#FFEFA8" stop-opacity=".46"/>
         <stop offset="1" stop-color="#FFEFA8" stop-opacity="0"/></radialGradient></defs>
@@ -477,7 +480,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== SANGEET ===== -->
-  <div style="background:radial-gradient(130% 90% at 50% 0%, #6B3FA0 0%, #3A1F63 42%, #150C28 100%)" class="backdrop art" data-scene="sangeet">
+  <div class="backdrop art" data-scene="sangeet">
+    <img src="ASSET:scene-sangeet" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs>
         <linearGradient id="bm1" x1="0" y1="0" x2="0" y2="1">
@@ -496,7 +500,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== PHERAS ===== -->
-  <div style="background:radial-gradient(120% 90% at 50% 100%, #C8521E 0%, #6B2412 40%, #1A0C10 100%)" class="backdrop art" data-scene="pheras">
+  <div class="backdrop art" data-scene="pheras">
+    <img src="ASSET:scene-pheras" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="fireG"><stop offset="0" stop-color="#F2A03D" stop-opacity=".48"/>
         <stop offset="1" stop-color="#F2A03D" stop-opacity="0"/></radialGradient>
@@ -512,7 +517,8 @@ section{padding-block:76px;position:relative}
   </div>
 
   <!-- ===== 7 RECEPTION — night, chandeliers ===== -->
-  <div style="background:radial-gradient(120% 80% at 50% 0%, #8A2A4E 0%, #4E1430 46%, #1C0A16 100%)" class="backdrop art" data-scene="reception">
+  <div class="backdrop art" data-scene="reception">
+    <img src="ASSET:scene-reception" alt="" class="scene-img" loading="eager" decoding="sync">
     <svg class="scene-fx" viewBox="0 0 400 780" preserveAspectRatio="xMidYMid slice">
       <defs><radialGradient id="chand"><stop offset="0" stop-color="#FFE3A6" stop-opacity=".5"/>
         <stop offset="1" stop-color="#FFE3A6" stop-opacity="0"/></radialGradient>
@@ -529,7 +535,7 @@ section{padding-block:76px;position:relative}
 
 <div id="cover">
   <div class="env" id="env" role="button" tabindex="0" aria-label="Break the seal and open the invitation"
-       style="--env:radial-gradient(60% 60% at 50% 42%, #C9A8C4 0%, #A98BA8 38%, #7E6480 72%, #53404F 100%)">
+       style="--env:url('ASSET:envelope')">
     <div class="beneath">
       <div><p class="dv2">शुभ विवाह</p>
         <p class="nm">Rohan<br><span style="font-style:italic;color:#F2A03D">&amp;</span><br>Meher</p></div>
@@ -546,7 +552,8 @@ section{padding-block:76px;position:relative}
 <div class="page">
 
 <section id="names" class="wrap center" data-scene="night" style="padding-top:92px">
-  <div class="arch reveal"><div class="photo-ph" role="img" aria-label="Couple photo"></div></div>
+  <div class="arch reveal"><img src="ASSET:couple-portrait"
+       alt="Rohan and Meher"></div>
   <p class="eyebrow reveal d1">Together with their families</p>
   <h2 class="script names reveal d1">Rohan<span class="amp">&amp;</span>Meher</h2>
   <p class="parents reveal d2"><b>Rohan Khanna</b><br>son of Mr. Vikram &amp; Mrs. Sunita Khanna<br><br>
@@ -663,13 +670,13 @@ section{padding-block:76px;position:relative}
     <h3 class="script reveal d1" style="font-size:clamp(2.6rem,10vw,3.2rem);margin:12px 0 0;color:var(--cream);text-shadow:0 2px 26px rgba(0,0,0,.7)">Our Story</h3></div>
   <div class="moments">
     <div class="moment reveal">
-      <div class="frame"><div class="photo-ph" role="img" aria-label="Couple photo"></div></div>
+      <div class="frame"><img src="ASSET:moment-her" alt="Meher, laughing on the steps"></div>
       <div><h4>How it started</h4><p>One photo of her, long before any of this was being planned.</p></div></div>
     <div class="moment reveal d1">
-      <div class="frame"><div class="photo-ph" role="img" aria-label="Couple photo"></div></div>
+      <div class="frame"><img src="ASSET:moment-him" alt="Rohan on the terrace"></div>
       <div><h4>Somewhere in between</h4><p>Her on the phone, him on the terrace, every single evening.</p></div></div>
     <div class="moment reveal d2">
-      <div class="frame"><div class="photo-ph" role="img" aria-label="Couple photo"></div></div>
+      <div class="frame"><img src="ASSET:moment-us" alt="Rohan and Meher"></div>
       <div><h4>And now this</h4><p>A hundred selfies like this one. You are invited to the next.</p></div></div>
   </div>
 </section>

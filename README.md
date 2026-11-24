@@ -27,12 +27,16 @@ is enough. Everything here is just for people who want to look under the hood.
 
 | | |
 |---|---|
-| `PROMPT.txt` | the prompt to paste into Claude |
-| `template/wedding-invite-template.html` | the complete working invitation, one file |
+| `SETUP.md` | **start here** — the wiring plan for Claude Code |
+| `template/invite.html` | the whole invitation, one file |
+| `assets/` | the 13 images it uses |
+| `PROMPT.txt` | the long written spec, for building without this repo |
 
-The template runs on its own — open it in any browser. It has no photos in it:
-every ceremony is drawn with gradients and light instead, so you can see the
-structure before you add your own pictures.
+**Images only load from inside an artifact's own asset store** — its sandbox
+sets `img-src <own domain> data: blob:`, so no external link will ever render.
+`SETUP.md` shows Claude Code how to upload `assets/` into your artifact and
+wire the placeholders, which is how you get the real scenes rather than empty
+backdrops.
 
 ## How it is built
 
