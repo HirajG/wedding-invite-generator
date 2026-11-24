@@ -53,6 +53,9 @@ STEP 2 — build it:
     ASSET:<name> placeholder in the HTML with the /_blob/<id> url the upload
     returns. There are 13 of them and every one must be replaced — if any
     ASSET: string is still in the file, the page will show a broken image.
+    Twelve are in `<img src="...">`; the thirteenth, ASSET:envelope, sits
+    inside a CSS `url(...)` on the cover element, so a search for `src=`
+    alone will miss it.
   - If I gave you my own photos, upload those in place of the matching
     default and use the same wiring. Resize anything over ~1200px on its
     long edge first, and crop rather than squash.

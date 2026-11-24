@@ -16,6 +16,16 @@ shift, the falling flowers.
 There is also a live version you can open to see it in motion:
 https://claude.ai/artifact/EmBZBSf7STcRge4BJ5Agvg
 
+That file uses `ASSET:<name>` placeholders where its background artwork and
+photos go — 13 of them. Every single one must be dealt with or the page shows
+broken images. If you can upload image files into the artifact, upload the
+matching files from
+https://github.com/HirajG/wedding-invite-generator/tree/HEAD/assets
+and swap each placeholder for the url you get back. If you cannot upload
+files, replace every placeholder with a tasteful gradient instead — never
+leave the literal text `ASSET:` anywhere in the finished page. Note one of
+them sits inside a CSS `url(...)` for the envelope cover, not an `<img>` tag.
+
 If you cannot fetch the file for any reason, tell me in one short line and
 build it from the description further down, which covers the same thing.
 
